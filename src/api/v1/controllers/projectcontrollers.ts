@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { projectService } from "../services/projectService";
+import { projectService } from "../services/projectservices";
 import { HTTP_STATUS } from "../../../constants/httpConstants";
 
 export const projectController = {
